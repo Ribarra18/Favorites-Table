@@ -1,0 +1,37 @@
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  border-style: dashed;
+  background: #5dff00;
+}
+td.style {
+  background: #ab1111;
+  color: #de0303;
+}
+td:first-child ol {
+  color: red;
+}
+td:last-child ol {
+  color: blue;
+}
+
+td {
+  width: 320px;
+  padding: 0 10px;
+}
+img {
+  width: 100%;
+  max-width: 100px;
+  min-width: 100px;
+}
+
+th {
+  background-color: darkgray;
+  color: white;
+}
+
+img {
+  border-radius: 10px;
+}
